@@ -1,0 +1,36 @@
+#division1{   
+    background-color: white;   
+    width: 350px;   
+    margin-left: 400px;
+     margin-top: 50px; 
+     margin-top: 150px;
+     padding-bottom: 15px;       
+ }
+ #division3{
+     margin-left: 50px;
+ }
+ #icon{
+     margin-left: 140px;
+ }
+ body{
+    background-image: url("bg7.jpg");
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+ }
+
+ #button{
+     margin-left: 80px;
+     margin-top: 20px;
+     padding: 8px;
+     width: 100px;
+ }
+ .textbox{
+     padding: 10px;
+     width: 200px;
+ }
+ #division4{
+    color:white;
+    padding: 10px;
+    background-color: #176888;
+    width:330px;
+    height:50px;
+ }
