@@ -1,0 +1,56 @@
+#division1{
+    background-color: white;
+    border-radius: 15px;
+    width: 700px;
+    margin-left: 250px;
+     margin-top: 50px;   
+     
+    
+ }
+ #division2{
+     padding: 10px;
+     background-color: #176888;
+     width:680px;
+     height:100px;
+    
+ }
+ #division3{
+     width:700px;
+     padding-left: 10px;
+     margin-left: 20px;
+    
+ }
+ h1{
+     margin-top: 40px;
+     color: white;
+     
+ }
+ #radio{
+     margin-left: 20px;
+     font-size: 50px;
+     
+ }
+ #textbox{
+     width:500px;
+     padding: 10px;
+     margin-left: 20px;
+ }
+ button{
+     width:150px;
+     height: 50px;
+     background-color: #176888;
+     color: white;
+     text-align: center;
+     font-size: medium;
+     margin-left: 230px;
+     margin-bottom: 20px;
+     margin-top: 10px;
+     border-radius: 10px;
+ }
+ body{
+    background-image: url("bg7.jpg");
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+ }
+ 
+ 
