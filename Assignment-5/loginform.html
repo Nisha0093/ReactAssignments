@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loginstyle.css" type="text/css" />
+    <title>Login Form</title>
+    
+</head>
+
+<body>
+  <script>
+    function validation(){
+      var user=document.getElementById("username").value;
+      var pass=document.getElementById("password").value;   
+
+      var success=document.write("<br><br><br><h1><center>Welcome..You logged in successfully...!</center></h1>");
+
+      if((user.trim()=="")||(user.trim()==null))
+      {
+        alert("please enter username");
+        return false;
+      }
+      if((pass.trim()=="")||(pass.trim()==null))
+      {
+        alert("please enter the password");
+        return false;
+      }
+      return success;
+    }
+
+
+
+  </script>
+    <div id="division1">
+      <div id="division4">
+        <h3><center>User Login</center></h3>
+      </div>
+        <div id="division2">
+          <img src="user-icon.jpg" width="60" height="60" id="icon"/>
+          <div id="division3">
+            <form >
+              <table cellspacing="10px">
+                <tr>                 
+                  <td>
+                      <input
+                        type="text"
+                        name="username"
+                        class="textbox"
+                        id="username"
+                        placeholder="Username"
+                       />
+                    </td>
+                </tr>               
+                <tr>                
+                  <td>
+                      <input
+                        type="password"
+                        name="password"
+                        class="textbox" 
+                        id="password"
+                        placeholder="Password"                      
+                      />
+                    </td>
+                </tr>
+               </table>
+          </form>
+          <td><input type="button" id="button" onclick="validation()" value="Login" /></td>      
+          </div>
+
+        </div>
+        
+              
+    </div>
+    
+</body>
+</html>
